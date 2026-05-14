@@ -72,8 +72,7 @@ install:
   # Get and compile beweisys, a Rust verifier by Benedikt Schöps
   # See: https://git.sr.ht/~m4dh0rs3/beweisys
   - git clone https://git.sr.ht/~m4dh0rs3/beweisys
-  - cd beweisys
-  - cargo build --release
+  - (cd beweisys && cargo build --release)
   #
   # Get and compile checkmm, a C++ verifier by Eric Schmidt
   - wget -q http://us.metamath.org/downloads/checkmm.cpp
