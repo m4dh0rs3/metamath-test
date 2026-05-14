@@ -1,0 +1,5 @@
+#!/bin/sh
+# Check mm file "$1" using metamath Rust implementation Beweisys.
+# Return 0 (true) if it's okay and non-zero (error) if there's a problem.
+
+./beweisys/target/release/beweisys "$1"

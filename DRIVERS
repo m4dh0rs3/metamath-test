@@ -3,5 +3,6 @@
 ./test-metamath-knife
 ./test-checkmm
 ./test-mmj2
+./test-beweisys
 # This is slow, so do this last.  Note that it requires python3:
 ./test-mmverifypy

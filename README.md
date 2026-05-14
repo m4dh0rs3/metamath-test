@@ -55,6 +55,7 @@ Currently-supported verifiers:
 * checkmm: C++ implementation by Eric Schmidt
 * mmj2: Java implementation by Mel O'Cat and Mario Carneiro
 * mmverifypy: Python implementation by Raph Levien
+* mmverifypy: Rust implementation by Benedikt Schöps
 
 This is MIT licensed, but many of the individual tests are licensed
 under the CC0.
